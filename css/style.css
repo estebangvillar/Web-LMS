@@ -17,7 +17,7 @@ nav li{
     list-style-type: none;
     border: 0.1px solid;
     border-color: #ffd100;
-    cursor:pointer;
+    cursor:crosshair;
     }
 
 nav ul{
