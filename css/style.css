@@ -17,22 +17,23 @@ nav li{
     list-style-type: none;
     border: 0.1px solid;
     border-color: #ffd100;
+    cursor:pointer;
     }
 
 nav ul{
     color: white;
 }
 
-h2{
+.titulos{
     margin-top: 50px;
     text-align: center;
 }
 
-p{
+.info{
     margin-top: 10px;
 }
 
-.entrada,.clientes_satis{
+.cajainfo{
     width: 70%;
     margin-left: auto;
     margin-right: auto;
@@ -42,18 +43,68 @@ p{
 
 a{
     color: #ffffff;
+    text-decoration: none;
 }
 
-.redes{
-    color: #ffffff;
+a:hover{
+    color:#ff6017
+}
+
+.pie{
+    background-color: #0000008a;;
     text-align: center;
     padding: 35px;
 }
 
-.pie{
-    width: 100%;
-    background-color: #0000008a;
-    height: 126px;
+.pagos{
+    width: 40px;
 }
 
+.stock{
+    width: 100%;
+}
 
+.cajacoche{
+    display: flex;
+    justify-content: center;
+}
+
+.fotocoche{
+    width: 20%;
+}
+
+.nombrecoche{
+    text-align: center;
+    font-size: x-large ;
+    font-weight: bold;
+}
+
+input{
+    background-color: #202020;
+    border: 1px solid;
+    border-color: #ffffff;
+    height: 20px;
+}
+
+.formulario{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#nombre{
+    width: 700px;
+}
+
+#telefono,#email,textarea{
+    margin-top: 50px;
+}
+
+#txthora{
+    width: 34px;
+    color: #ffffff;
+    border-style: none;
+    position: absolute;
+    top: 5px;
+    left: 97.5%;
+}

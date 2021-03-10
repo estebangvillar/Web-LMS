@@ -3,41 +3,50 @@
     <head>
         <title>Villar Automoción</title>
         <link  rel="icon" href="assets/favicon.png" type="image/png" />
-        <meta charset="UTF-8"/>
+        <meta charset="UTF-8" http-equiv="refresh" content="30"/>
         <link rel="stylesheet" href="css/style.css">
         <link href='https://css.gg/instagram.css' rel='stylesheet'>
+        <script src="javascript/functions.js"></script>
+        <script>
+            function inicio()
+            {
+                txthora.value = hora();
+            }
+        </script>
+        <meta
     </head>
 
-    <body>
+    <body onload="inicio()">
 
         <header>
             <img src="assets/logo.png" class=logo>
             <nav>
                 <ul>
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Modelos</a></li>
-                    <li><a href="#">Solicita una prueba</a></li>
-                    <li><a href="#">Contacto</a></li>
-                    <li><a href="#">Quiénes somos</a></li>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="pages/modelos.html">Modelos</a></li>
+                    <li><a href="pages/pruebacoche.html">Solicita una prueba</a></li>
+                    <li><a href="pages/contacto">Contacto</a></li>
+                    <li><a href="pages/infoempresa">Quiénes somos</a></li>
                 </ul>
             </nav>
+            <input type="text" id="txthora" readonly>
         </header>
 
         <main>
             <section>
                 <article>
-                    <div class="entrada">
-                        <h2>DE QUERER A PODER SOLO HAY UN CLICK</h2>
-                        <p>
+                    <div class="cajainfo">
+                        <h2 class="titulos">DE QUERER A PODER SOLO HAY UN CLICK</h2>
+                        <p class="info">
                             <b>En Villar Automoción tenemos el coche de tus sueños. Llevamos en el mundo de la compraventa de vehículos de alta gama desde el año 2002 y actualmente contamos
                             con un stock de más de 140 coches en nuestras tiendas en Granada y Málaga. Ven a conocer el stock mas grande de vehículos de ocasión de alta gama y
                             déjate llevar por tus sueños.</b>
                         </p>
                     </div>
                     <br/><br/><hr>
-                    <div class="clientes_satis">
-                        <h2>CLIENTES SATISFECHOS</h2>
-                        <p>
+                    <div class="cajainfo">
+                        <h2 class="titulos">CLIENTES SATISFECHOS</h2>
+                        <p class="info">
                             <b>En Villar Automoción tenemos el coche de tus sueños. Llevamos en el mundo de la compraventa de vehículos de alta gama desde el año 2002 y actualmente contamos
                             con un stock de más de 140 coches en nuestras tiendas en Granada y Málaga. Ven a conocer el stock mas grande de vehículos de ocasión de alta gama y
                             déjate llevar por tus sueños.</b>
@@ -50,11 +59,11 @@
                 </article>
             </section>
         </main>
-        <br/>
-        <footer>
-            <div class="pie">
-                <i class="gg-instagram"></i><p class="redes"><i >Síguenos en instagram</i></p>
-            </div>
+        <br/><br/><br/>
+        <footer class="pie">
+                <img src="assets/visa-logo.png" class="pagos" style="margin-bottom: 5px; margin-right: 7px;"/>
+                <img src="assets/mastercard-logo.png" class="pagos"/>
+                <img src="assets/paypal-logo.png" class="pagos"/>
         </footer>
     </body>
 </HTML>
