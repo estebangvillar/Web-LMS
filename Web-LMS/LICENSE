@@ -1,0 +1,137 @@
+Licencia pública de Mozilla versión 2.0
+==================================
+
+1. Definiciones
+--------------
+
+1.1. "Contribuyente"
+    significa cada persona física o jurídica que crea, contribuye a
+    la creación de, o es propietaria del Software Cubierto.
+
+1.2. "Versión del Contribuyente"
+    significa la combinación de las Contribuciones de otros (si las hay) utilizadas
+    por un Colaborador y la Contribución de ese Colaborador en particular.
+
+1.3. "Contribución"
+    significa el Software Cubierto de un Colaborador en particular.
+
+1.4. "Software amparado"
+    significa la Forma de Código Fuente a la que el Contribuyente inicial ha adjuntado
+    la notificación en el Anexo A, la forma ejecutable de dicho formulario de código fuente
+    y las Modificaciones de dicho Formulario de Código Fuente, en cada caso
+    incluyendo partes del mismo.
+
+1.5. "Incompatible con licencias secundarias"
+    significa
+
+    (a) que el Contribuyente inicial ha adjuntado el aviso descrito
+        en el Anexo B al Software amparado; o
+
+    (b) que el Software amparado se puso a disposición bajo los términos de
+        versión 1.1 o anterior de la Licencia, pero no bajo los
+        términos de una Licencia Secundaria.
+
+1.6. "Forma ejecutable"
+    significa cualquier forma de la obra que no sea la forma de código fuente.
+
+1.7. "Obra mayor"
+    significa un trabajo que combina el Software Cubierto con otro material, en
+    un archivo o archivos separados, que no es Software Cubierto.
+
+1.8. "Licencia"
+    significa este documento.
+
+1.9. "Licenciable"
+    significa tener el derecho de conceder, en la mayor medida posible
+    ya sea en el momento de la concesión inicial o con posterioridad, cualquiera y
+    todos los derechos transmitidos por esta Licencia.
+
+1.10. "Modificaciones"
+    significa cualquiera de las siguientes:
+
+    (a) cualquier archivo en forma de Código Fuente que resulte de una adición a,
+        (a) cualquier archivo en formato de código fuente que resulte de una adición, eliminación o modificación del contenido del
+        Software Cubierto; o
+
+    (b) cualquier archivo nuevo en formato de código fuente que contenga cualquier
+        Software amparado.
+
+1.11. "Reclamaciones de patentes" de un Colaborador
+    significa cualquier reivindicación de patente, incluyendo, sin limitación, las reivindicaciones de método
+    proceso y aparato, en cualquier patente susceptible de ser licenciada por dicho
+    Contribuyente que se infringiría, de no ser por la concesión de la
+    Licencia, al fabricar, utilizar, vender, ofrecer a la venta, tener
+    importación o transferencia de sus Contribuciones o de su
+    Versión del Colaborador.
+
+1.12. "Licencia secundaria"
+    significa la Licencia Pública General de GNU, Versión 2.0, la Licencia Pública General Reducida de GNU
+    General Pública Reducida, Versión 2.1, la Licencia Pública General Affero de GNU, Versión 3.0
+    Pública General de GNU, Versión 3.0, o cualquier versión posterior de esas
+    licencias.
+
+1.13. "Forma del código fuente"
+    significa la forma de la obra preferida para realizar modificaciones.
+
+1.14. "Usted" (o "Su")
+    significa una persona física o jurídica que ejerce derechos bajo esta
+    Licencia. En el caso de las entidades legales, "Usted" incluye cualquier entidad que
+    controla, es controlada por, o está bajo control común con Usted. En
+    Para los fines de esta definición, "control" significa (a) el poder, directo
+    o indirecto, para causar la dirección o gestión de dicha entidad
+    ya sea por contrato o de otro modo, o (b) la propiedad de más del
+    del cincuenta por ciento (50%) de las acciones en circulación o de la
+    de dicha entidad.
+
+2. Concesión de licencias y condiciones
+--------------------------------
+
+2.1. Concesiones
+
+Cada Colaborador le concede por la presente una licencia mundial, libre de derechos de autor,
+licencia no exclusiva:
+
+(a) en virtud de los derechos de propiedad intelectual (que no sean patentes o marcas comerciales)
+    licenciables por dicho Colaborador para utilizar, reproducir, poner a disposición
+    modificar, mostrar, ejecutar, distribuir y explotar de otro modo sus
+    Contribuciones, ya sea sin modificar, con Modificaciones, o
+    como parte de una Obra Mayor; y
+
+(b) en virtud de las Reivindicaciones de Patentes de dicho Contribuyente para hacer, utilizar, vender, ofrecer
+    para la venta, mandar a hacer, importar y transferir de cualquier otro modo sus
+    Contribuciones o su Versión del Contribuyente.
+
+2.2. Fecha de entrada en vigor
+
+Las licencias concedidas en la Sección 2.1 con respecto a cualquier Contribución
+entran en vigor para cada Contribución en la fecha en que el Contribuyente distribuye por primera vez
+distribuya por primera vez dicha Contribución.
+
+2.3. 2.3. Limitaciones del alcance de la concesión
+
+Las licencias concedidas en esta Sección 2 son los únicos derechos otorgados bajo
+esta Licencia. No se implicará ningún derecho o licencia adicional por la
+distribución u otorgamiento de licencias del Software amparado bajo esta Licencia.
+Sin perjuicio de la Sección 2.1(b) anterior, no se concede ninguna licencia de patente por parte de un
+Contribuyente:
+
+(a) para cualquier código que un Colaborador haya eliminado del Software Cubierto;
+    o
+
+(b) por las infracciones causadas por: (i) sus modificaciones del software amparado y las de otros terceros
+    modificaciones del Software Cubierto, o (ii) la combinación de sus
+    Contribuciones con otro software (excepto como parte de su Contributor
+    Versión); o
+
+(c) en virtud de las Reclamaciones de patentes infringidas por el Software amparado en ausencia de
+    sus Contribuciones.
+
+Esta Licencia no otorga ningún derecho sobre las marcas comerciales, marcas de servicio
+o logotipos de ningún Colaborador (salvo los que sean necesarios para cumplir con
+los requisitos de notificación de la Sección 3.4).
+
+2.4. Licencias posteriores
+
+Ningún Colaborador hará
+
+Traducción realizada con la versión gratuita del traductor www.DeepL.com/Translator
