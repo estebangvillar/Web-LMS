@@ -1,14 +1,18 @@
+/*En este estilo del body lo que estamos haciendo es establecer un color para TODA la página, un estilo de letra, y un color de fuente*/
+
 body{
     background-color: #202020;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #ffffff;
 }
 
+/*Centramos el logo*/
 .logo{
     display: block;
     margin: auto;
 }
 
+/*Creación de menú*/
 nav li{
     display: inline-block;
     width: 18%;
@@ -19,21 +23,44 @@ nav li{
     border: 0.1px solid;
     border-color: #ffd100;
     cursor: alias;
-    }
+    position: relative;
+}
 
+/*Poniendo el color de letra de el menú*/
 nav ul{
     color: white;
 }
 
+/*Cuando pasamos el ratón sobre el menú se oscurece*/
+nav li:hover{
+      background-color:#000000;
+}
+
+/*Colocando las opciones del menu desplegable*/
+nav li>ul{
+      display:none;
+}
+
+/*Cuando pasamos el ratón sobre una parte del menu se despliegan las opcoines*/
+nav li:hover>ul{
+      display: block;
+      position:absolute;
+      top:50px;
+      left:0px;
+}
+
+/*Posicionamiento de los títulos que hay en la página*/
 .titulos{
     margin-top: 50px;
     text-align: center;
 }
 
+/*Posicionamiento de párrafos en inicio*/
 .info{
     margin-top: 10px;
 }
 
+/*Propiedades de la caja en la que se encuenran los párrafos*/
 .cajainfo{
     width: 70%;
     margin-left: auto;
@@ -42,44 +69,53 @@ nav ul{
     text-align: center;
 }
 
+/*Color de enlaces blanco y quitando subrayado*/
 a{
     color: #ffffff;
     text-decoration: none;
 }
 
+/*Color naranja cuando pasas el ratón por los enlaces*/
 a:hover{
     color:#ff6017
 }
 
+/*Propiedades del footer*/
 .pie{
     background-color: #0000008a;;
     text-align: center;
     padding: 35px;
 }
 
+/*Tamaño de las imágenes de las formas de pago utilizadas en el footer*/
 .pagos{
     width: 40px;
 }
 
+/*Tamaño de la caja*/
 .stock{
     width: 100%;
 }
 
+/*Centrando la caja*/
 .cajacoche{
     display: flex;
     justify-content: center;
 }
 
+/*Tamaño imagenes de los coches*/
 .fotocoche{
     width: 20%;
 }
 
+/*Propiedades de los nombres de los coches*/
 .nombrecoche{
     text-align: center;
     font-size: x-large ;
     font-weight: bold;
 }
 
+/*Tamaño y aspecto de la caja de texto del form*/
 textarea{
     height: 150px;
     width: 700px;
@@ -89,6 +125,7 @@ textarea{
     color: #ffffff;
 }
 
+/*Tamaño y propiedades caja formulario*/
 .formulario{
     margin-top: 75px;
     width: 100%;
@@ -96,10 +133,7 @@ textarea{
     justify-content: center;
 }
 
-#acepto{
-    color: #202020;
-}
-
+/*Tamaño y propiedades de los inputs del formulario*/
 #nombre,#telefono,#email{
     width: 700px;
     background-color: #202020;
@@ -111,6 +145,7 @@ textarea{
     text-align: center;
 }
 
+/*Reloj arriba a la derecha*/
 #txthora{
     width: 34px;
     color: #ffffff;
@@ -122,10 +157,12 @@ textarea{
     background-color: #202020;
 }
 
+/*Quitando el mensaje por defecto de "No se eligió archivo"*/
 #identidad{
     color: transparent;
 }
 
+/*Botón del formulario (estética)*/
 #enviar{
     border-radius: 7px;
     padding: 10px;
@@ -133,6 +170,7 @@ textarea{
     background-color: #4d4c4c;
     color: #ffffff;
 }
+
 
 .privacidad{
     text-align: center;
