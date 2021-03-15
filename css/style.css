@@ -1,6 +1,7 @@
 body{
     background-color: #202020;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #ffffff;
 }
 
 .logo{
@@ -17,7 +18,7 @@ nav li{
     list-style-type: none;
     border: 0.1px solid;
     border-color: #ffd100;
-    cursor:crosshair;
+    cursor: alias;
     }
 
 nav ul{
@@ -79,32 +80,91 @@ a:hover{
     font-weight: bold;
 }
 
-input{
+textarea{
+    height: 150px;
+    width: 700px;
     background-color: #202020;
-    border: 1px solid;
     border-color: #ffffff;
-    height: 20px;
+    border-radius: 12px;
+    color: #ffffff;
 }
 
 .formulario{
+    margin-top: 75px;
     width: 100%;
     display: flex;
     justify-content: center;
 }
 
-#nombre{
-    width: 700px;
+#acepto{
+    color: #202020;
 }
 
-#telefono,#email,textarea{
-    margin-top: 50px;
+#nombre,#telefono,#email{
+    width: 700px;
+    background-color: #202020;
+    border: 1px solid;
+    border-color: #ffffff;
+    height: 20px;
+    border-radius: 7px;
+    color: #ffffff;
+    text-align: center;
 }
 
 #txthora{
     width: 34px;
     color: #ffffff;
-    border-style: none;
+    border: dotted 1px #ffd100;
     position: absolute;
     top: 5px;
     left: 97.5%;
+    text-align: center;
+    background-color: #202020;
+}
+
+#identidad{
+    color: transparent;
+}
+
+#enviar{
+    border-radius: 7px;
+    padding: 10px;
+    width: 700px;
+    background-color: #4d4c4c;
+    color: #ffffff;
+}
+
+.privacidad{
+    text-align: center;
+    font-size: small;
+}
+
+
+.promociones{
+    width: 100%;
+    display: flex;
+}
+
+.video{
+    width: 50%;
+    margin-left: 245px;
+}
+
+video{
+    height: 750px;
+}
+
+.infors{
+    text-align: center;
+}
+
+.rs6{
+    margin-top: 175px;
+    font-weight: bold;
+    font-size: xxx-large;
+}
+
+.caracteristicasrs{
+    font-weight: lighter;
+    font-size: x-large;
 }
